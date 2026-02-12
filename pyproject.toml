@@ -3,7 +3,7 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "astro1211_radiolab"
+name = "astro121_radiolab"
 version = "0.1.0"
 description = "Helper functions and analysis tools for Astro 121 Radio Lab"
 readme = "README.md"
@@ -19,3 +19,5 @@ dependencies = [
 
 [tool.setuptools]
 py-modules = ["functions"]
+packages = {find = {where = ["src"]}}
+package-dir = {""="src"}
