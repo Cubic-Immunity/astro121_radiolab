@@ -8,6 +8,8 @@ Description-Content-Type: text/markdown
 Requires-Dist: numpy
 Requires-Dist: scipy
 Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: astropy
 Requires-Dist: pytest
 
 # astro121_radiolab
